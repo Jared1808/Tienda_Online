@@ -1,0 +1,22 @@
+body {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+
+link:active {
+  text-decoration: underline;
+}
+
+.acotar_texto {
+  max-height: 35px;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+  overflow: hidden;
+}
